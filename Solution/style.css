@@ -18,7 +18,7 @@ header {
 }
 .logo {
     font-family: 'Arial', sans-serif;
-    color: #76b852; 
+    color: #2d7108;     
     font-size: 3em; 
     font-weight: bold; 
     text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
@@ -38,7 +38,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: green;
+    color: #2d7108;
     font-weight: bold;
     display: block;
 }
@@ -100,14 +100,14 @@ button, .search-bar button {
 }
 
 .main-banner .text-content h1 {
-    color: #4CAF50; 
-    font-size: 2.5em;
+    color: #E65100; 
+    font-size: 1.5em;
     margin-bottom: 0.5em; 
     text-align: center;
 }
 
 .main-banner .text-content h2 {
-    color: #4CAF50; 
+    color: #2d7108; 
     font-size: 2em; 
     margin-bottom: 1em; 
     text-align: center;
@@ -129,7 +129,7 @@ button, .search-bar button {
 
 .search-form button {
     padding: 10px 20px;
-    background-color: #4CAF50; 
+    background-color: #2d7108; 
     color: white;
     border: none;
     border-radius: 20px;
@@ -141,6 +141,47 @@ button, .search-bar button {
 .search-form button:hover {
     background-color: #367c39; 
 }
+
+.image-slider {
+    position: relative;
+    width: 830px; /* Ajusta al tamaño de tu imagen */
+    height: 580px; /* Ajusta al tamaño de tu imagen */
+    margin: auto; /* Centrar el slider si es necesario */
+}
+
+.slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.left-arrow {
+    left: 10px;
+    background-color: #2d7108;
+    border: 1px solid #E65100;
+
+}
+
+.right-arrow {
+    right: 10px;
+    background-color: #2d7108;
+    border: 1px solid #E65100;
+
+}
+
+.fruits-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 
 /*tarjetas de soporte*/
 
@@ -279,16 +320,16 @@ button, .search-bar button {
 .filter-button {
     padding: 8px 16px;
     background-color: #ffffff; 
-    border: 2px solid #76b852;
+    border: 2px solid #65c656;
     border-radius: 20px; 
-    color: #76b852;
+    color: #367C2B;
     cursor: pointer;
     font-size: 14px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .filter-button:hover, .filter-button.active {
-    background-color: #76b852;
+    background-color: #367C2B;
     color: #ffffff;
 }
 
