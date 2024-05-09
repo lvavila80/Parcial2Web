@@ -10,8 +10,10 @@
     <header>
         <div class="header-top">
             <div class="logo">Fruver</div>
+            <input type="checkbox" id="expand-toggle" class="expand-toggle">
+            <label for="expand-toggle" class="menu-icon">&#9776;</label>
             <nav>
-                <ul>
+                <ul id="nav-list">
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Tienda</a></li>
                     <li><a href="#">Productos</a></li>
@@ -74,11 +76,21 @@
         </section>
         <div class="product-header">
             <h2>Productos Orgánicos</h2>
+            <div class="mobile-filter">
+                <label for="mobile-filter-select">Ordenar Por:</label>
+                <select id="mobile-filter-select" class="filter-select">
+                    <option value="todos">Todos los Productos</option>
+                    <option value="vegetales">Vegetales</option>
+                    <option value="frutas">Frutas</option>
+                    <option value="pan">Pan de cereales</option>
+                </select>
+            </div>
             <div class="product-filters">
                 <button class="filter-button active">Todos los Productos</button>
                 <button class="filter-button">Vegetales</button>
                 <button class="filter-button">Frutas</button>
                 <button class="filter-button">Pan de cereales</button>
+                
             </div>
         </div>
         <section class="product-grid">
